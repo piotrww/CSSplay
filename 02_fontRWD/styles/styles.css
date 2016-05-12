@@ -1,6 +1,11 @@
-img {
-  width: 30%;
-/*//  height: 30%;*/
-  float: left;
-  shape-outside: circle(40%);
+/* Just vw, scalable always, on small screen notreadable */
+p {
+  color: red;
+  font-size: 12vw;
+}
+
+/* Just vw, scalable always, on small screen notreadable */
+h1 {
+  color: blue;
+  font-size: calc(2em + 12vw);
 }
